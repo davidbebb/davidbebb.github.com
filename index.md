@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Caffeine to code
-tagline:
+tagline: Work in progress
 ---
 {% include JB/setup %}
 
@@ -24,8 +24,6 @@ In `_config.yml` remember to specify your own data:
 The theme should reference these variables whenever needed. -->
 
 ## Recent posts
-
-Here's a sample "posts list".
 
 <ul class="posts">
   {% for post in site.posts %}
