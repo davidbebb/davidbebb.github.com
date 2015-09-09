@@ -23,7 +23,7 @@ Composition: - Composition is the selective use of functionality from another cl
 The main danger of inheritance is that is is difficult to control - you probably don't need your new class to inherit *all* of the functionality from another class.
 Composition allows you to call functions from another class selectively, so you have a greater degree of control and transparency in what your new class can do.
 
-## Ship building using in inheritance:
+### Ship building using in inheritance:
 
 {% highlight ruby %}
 
