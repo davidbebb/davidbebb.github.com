@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
+title:            Caffine to Code
+locale:           en_gb
 url:
 
 
@@ -26,21 +26,21 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
+  name: David Bebb
+  avatar: DSC_0293-square.jpg
+  bio: "Software Developer. Based in Cambridge UK."
+  email: web@davidbebb.co.uk
   disqus-shortname:
-  twitter: #username
+  twitter: davidbebb
   facebook: #username
   google:
-    plus: #username
+    plus:
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: davidbebb
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
