@@ -18,17 +18,17 @@ var data = {
     copyright: ['2015 -', new Date().getFullYear(), author].join(' '),
     pages:[
       {
-        title: 'Posts',
+        title: 'Thoughts',
         href: '#',
         class: 'current'
       },
       {
-        title: 'About Me',
-        href: './about.html'
+        title: 'Projects',
+        href: './projects.html'
       },
       {
-        title: 'Projects',
-        href: '#'
+        title: 'About Me',
+        href: './about.html'
       }
     ],
     recent: 0 //or an array of links
@@ -70,8 +70,22 @@ var data = {
   ]
 }
 
-var html = ejs.render(index, data, {filename:'./templates/index'});
+var index = ejs.render(index, data, {filename:'./templates/index'});
 
-fs.outputFile('index.html', html, function (err) {
+fs.outputFile('index.html', index, function (err) {
+ if (err) {console.log(err);}
+});
+
+
+var about = ejs.render(index, data, {filename:'./templates/index'});
+
+fs.outputFile('about.html', about, function (err) {
+ if (err) {console.log(err);}
+});
+
+
+var projects = ejs.render(index, data, {filename:'./templates/index'});
+
+fs.outputFile('projects.html', projects, function (err) {
  if (err) {console.log(err);}
 });

@@ -13,11 +13,7 @@
 
         <div class="info">
             <span class="date">
-              <span class="month"><%=moment(p.date).format('MMM')%>
-                <span>
-                  <%=moment(p.date).format('MMMM').replace(moment(p.date).format('MMM'), '')%>
-                </span>
-              </span>
+              <span class="month"><%=moment(p.date).format('MMM')%><span><%=moment(p.date).format('MMMM').replace(moment(p.date).format('MMM'), '')%></span></span>
               <span class="day"><%=moment(p.date).format('DD')%></span>
               <span class="year">, <%=moment(p.date).format('YYYY')%></span>
             </span>
