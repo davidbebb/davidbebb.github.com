@@ -1,0 +1,10 @@
+{
+  "watch":[
+    "templates",
+    "index.js"
+  ],
+  "ext":"js, ejs",
+  "events": {
+    "restart": "echo $FILENAME"
+  }
+}

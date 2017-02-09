@@ -38,5 +38,5 @@ var data = {
 var html = ejs.render(index, data, {filename:'./templates/index'});
 
 fs.outputFile('index.html', html, function (err) {
- console.log(err) // => null
+ if (err) {console.log(err);}
 });

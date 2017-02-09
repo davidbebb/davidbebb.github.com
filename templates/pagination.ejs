@@ -1,7 +1,14 @@
 <!-- Pagination -->
+
+<% if (pagination.numberOfPages > 1) {%>
   <div class="pagination">
-    <!--<a href="#" class="button previous">Previous Page</a>-->
+
+    <%if (pagination.currentPage > 1){%>
+      <a href="#" class="button previous">Previous Page</a>
+    <%}%>
     <div class="pages">
+      <% %>
+
       <a href="#" class="active">1</a>
       <a href="#">2</a>
       <a href="#">3</a>
@@ -9,5 +16,9 @@
       <span>&hellip;</span>
       <a href="#">20</a>
     </div>
-    <a href="#" class="button next">Next Page</a>
+
+    <%if (pagination.currentPage < pagination.numberOfPages){%>
+      <a href="#" class="button next">Next Page</a>
+    <%}%>
   </div>
+<%}%>
