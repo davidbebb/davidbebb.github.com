@@ -1,25 +1,33 @@
 <!DOCTYPE html>
+<!--
+  Original CSS
+  
+	Striped by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+  Templating structure by David Bebb
+
+-->
 <html lang="en">
-<%- include header %>
+
+    <%- include header %>
 
     <body>
         <div id="content">
             <div class="inner">
-
-                <%- include post %>
+                <% if (typeof posts != 'undefined') {%>
+                  <%- include post %>
+                  <%- include pagination %>
+                <%} %>
 
             </div>
-            <%- include pagination %>
         </div>
         <%- include sidebar %>
 
     </body>
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
+    <%- include scripts %>
+
 
 </html>
