@@ -1,0 +1,17 @@
+{
+  "name": "davidbebb.co.uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Bebb",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5"
+  },
+  "devDependencies": {
+    "fs-extra": "^2.0.0"
+  }
+}
