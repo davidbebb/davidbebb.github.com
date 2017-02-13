@@ -6,7 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-  Templating structure by David Bebb
+  Templating structure by David Bebb github.com/davidbebb
 
 -->
 <html lang="en">
@@ -26,17 +26,15 @@
                 <%} %>
 
                 <% if (typeof projects != 'undefined') {%>
-                  <%- include post %>
+                  <%- include projects %>
                 <%} %>
 
             </div>
             <%- include pagination %>
         </div>
         <%- include sidebar %>
-
     </body>
 
     <%- include scripts %>
-
 
 </html>

@@ -49,6 +49,15 @@
 		}
 	}
 
+	#about-image {
+		border-radius: 0.5em;
+	}
+
+	.centered {
+		text-align: center;
+	}
+
+
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
@@ -894,13 +903,14 @@
 				}
 			}
 
+
 		/* Logo */
 
 			#logo {
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
 				font-size: 2em;
-				letter-spacing: 0.1em;
+				letter-spacing: 0.0em;
 
 				a {
 					display: block;

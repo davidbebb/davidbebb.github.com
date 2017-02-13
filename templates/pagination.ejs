@@ -1,6 +1,6 @@
 <!-- Pagination -->
 
-<% if (pagination.numberOfPages > 1) {%>
+<% if (typeof pagination != 'undefined' && pagination.numberOfPages > 1) {%>
   <div class="pagination">
 
     <%if (pagination.currentPage > 1){%>

@@ -1206,6 +1206,12 @@ body {
     -ms-animation: none !important;
     animation: none !important; }
 
+#about-image {
+  border-radius: 0.5em; }
+
+.centered {
+  text-align: center; }
+
 input, textarea, select {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -1825,7 +1831,7 @@ ol.default {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 2em;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.0em; }
     #logo a {
       display: block;
       background-color: #c94663;
