@@ -1,0 +1,18 @@
+{
+  "date": "20170209",
+  "publish": "true",
+  "tags":["development", "config"],
+  "header":{
+    "title":"Nodemon - minimal config",
+    "subheader": "A quick start Nodemon config",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "<a href='https://nodemon.io/'>Nodemon</a> is a utility for node developers which monitors source code for changes and automatically restarts the server. This can save you a lot of key strokes, and from a fair amount of frustration over the course of a project.",
+    "My preferred method for setting up nodemon is to use a config file. This is easy to share, easy to customise, and usually 'just works'.",
+    "By default, nodemon looks for a config file called 'nodemon.json'.",
+    "Below is my default minimal config. It covers the functionality that I normally want when I start a project, whilst preserving the nodemon defaults. It's easy to specify what to watch (by path and extension) and importantly, tells you <i>which file changed and caused it to restart</i>.",
+    "<script src='https://gist.github.com/davidbebb/75529d70c761efc14236f0dcb55efaa2.js'></script>",
+    "More information can be found in the <a href='https://github.com/remy/nodemon#nodemon'>documentation</a>."
+  ]
+}

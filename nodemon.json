@@ -1,9 +1,10 @@
 {
   "watch":[
     "templates",
-    "index.js"
+    "index.js",
+    "posts"
   ],
-  "ext":"js, ejs",
+  "ext":"js, ejs, json",
   "events": {
     "restart": "echo $FILENAME"
   }
