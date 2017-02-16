@@ -1,0 +1,17 @@
+{
+  "date": "20170328",
+  "tags":[],
+  "header":{
+    "title":"Third post ",
+    "subheader": "This is still my first post really.",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "Some stuff here",
+    "and <strong>this</strong> is pragraph 2. <- and I still can\"t spell paragraph"
+  ],
+  "image":{
+      "src": "./images/pic02.jpg",
+      "alt": "A pretty picture"
+  }
+}
