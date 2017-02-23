@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title of the document</title>
+  <!-- include libraries(jQuery, bootstrap) -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- include summernote css/js-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.min.js"></script>
+</head>
+
+<body>
+  <div id="summernote"></div>
+  <button onclick="logHtml()">Show HTML</button>
+  <div id="out"></div>
+
+</body>
+
+<script>
+  $(document).ready(function() {
+    $('#summernote').summernote();
+    $('#out').text('HTML will display here');
+  })
+
+  function logHtml() {
+    var html = $('#summernote').summernote('code');
+    $('#out').text(html)
+  }
+</script>
+
+</html>
