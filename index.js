@@ -26,10 +26,10 @@ var data = {
       {
         title: 'Thoughts',
         href: './index.html'
-      },
-      {
-        title: 'Projects',
-        href: './projects.html'
+      // },
+      // {
+      //   title: 'Projects',
+      //   href: './projects.html'
       }
     ],
     recent: 0 //or an array of links

@@ -2,35 +2,62 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Title of the document</title>
-  <!-- include libraries(jQuery, bootstrap) -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Rich text to HTML - Summernote</title>
 
-  <!-- include summernote css/js-->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.min.js"></script>
+    <!-- include libraries(jQuery, bootstrap) that summernode needs-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- include summernote css/js-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.min.js"></script>
+
+
 </head>
 
-<body>
-  <div id="summernote"></div>
-  <button onclick="logHtml()">Show HTML</button>
-  <div id="out"></div>
+
+<style>
+    .padded {
+        padding: 0 19px;
+    }
+
+    .pad-top {
+        padding-top: 19px;
+    }
+</style>
+
+<body class="padded">
+
+    <h2>Summernote</h2>
+
+    <p>Turn rich text into html</p>
+
+    <div id="summernote">
+        <p>Type here</p>
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="logHtml()">Show HTML</button>
+
+    <div class="pad-top">
+        <h3>HTML</h3>
+        <div id="out"></div>
+    </div>
 
 </body>
 
 <script>
-  $(document).ready(function() {
-    $('#summernote').summernote();
-    $('#out').text('HTML will display here');
-  })
+    $(document).ready(function() {
+        $('#summernote').summernote();
+        $('#out').text('The HTML will display here');
+    });
 
-  function logHtml() {
-    var html = $('#summernote').summernote('code');
-    $('#out').text(html)
-  }
+    function logHtml() {
+        var html = $('#summernote').summernote('code');
+        $('#out').text((html));
+    }
+
 </script>
 
 </html>
