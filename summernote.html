@@ -34,6 +34,7 @@
 
     <p>Turn rich text into html</p>
 
+    <!-- Create a place holder div for summernote -->
     <div id="summernote">
         <p>Type here</p>
     </div>
@@ -48,6 +49,7 @@
 </body>
 
 <script>
+// As summernote needs jQuery, we might as well use it for our dom manipulations as well - sorry @ http://youmightnotneedjquery.com/  :(
     $(document).ready(function() {
         $('#summernote').summernote();
         $('#out').text('The HTML will display here');

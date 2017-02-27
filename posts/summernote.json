@@ -1,0 +1,15 @@
+{
+  "date": "20170227",
+  "publish": "true",
+  "tags":["development", "tools"],
+  "header":{
+    "title":"Summernote",
+    "subheader": "Rich text to HTML made simple",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "Recently I found myself looking for a quick way to build a form field that returned HTML. The one I settled for was <a href='http://summernote.org/'><i>Summernote</i></a>.",
+    "The biggest problem I had was finding a nice, minimal, example of using it. So I made one - <a href='./summernote.html'>Live demo</a> or <a href = 'https://github.com/davidbebb/davidbebb.github.io/blob/master/summernote.html'>source.</a>",
+    "Enjoy"
+  ]
+}
