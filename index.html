@@ -61,6 +61,30 @@
 
 
     
+    <article class="box post post-excerpt" id = "codewars">
+
+        <header>
+            <h2>Codewars</h2>
+            <p>A fun way to up your development game</p>
+        </header>
+
+        <div class="info">
+            <span class="date">
+              <span class="month">Feb<span>ruary</span></span>
+              <span class="day">25</span>
+              <span class="year">, 2017</span>
+            </span>
+        </div>
+        
+        
+          <p><p>One of my continual concerns with coding is forgetting - when I've been away from a language for a while, it's slightly nerve racking to come back to it. </p><p>Enter codewars, a collection of coding challenges - or katas - mostly written by other developers using the site. I find this a great way of refreshing a language, and a good way of pushing my skills up a level, in a way that I probably won't with production code (because, best will in the world, I <i>care</i> about my production code working, so if I can I'll play safe and stick to what I know works, even if there are potentially faster or cleaner solutions). </p><p>Also, once I have completed a challenge, I get to see other solutions to the same problem, which is often educational, even if it's only to confirm ways you <i>wouldn't</i> want to see used to solve the problem. </p><p>I also like to use this to familiarise myself with a new language - after I've covered the basic tutorials, I find codewars an excellent way to cement what I've learnt - and to be a good way of getting myself used to the documentation conventions and sources for my new favourite language. </p><p>Finally, the because the way challenges are 'marked' is through a set of unit tests, I get quick exposure to these, something that is often missed in the tutorials. </p><p>So, whether you're leaning new, or sharpening up old, the number and variety, of the challenges on <a href='https://www.codewars.com/'>codewars</a> makes it a good place to know. </p></p>
+        
+        <a data-scroll href="#" class="button">Top</a>
+
+    </article>
+
+
+    
     <article class="box post post-excerpt" id = "neverknowinglyundermechanised">
 
         <header>
@@ -112,6 +136,50 @@
           <p><script src='https://gist.github.com/davidbebb/75529d70c761efc14236f0dcb55efaa2.js'></script></p>
         
           <p>More information can be found in the <a href='https://github.com/remy/nodemon#nodemon'>documentation</a>.</p>
+        
+        <a data-scroll href="#" class="button">Top</a>
+
+    </article>
+
+
+    
+    <article class="box post post-excerpt" id = "searchingbashhistory">
+
+        <header>
+            <h2>Searching bash history</h2>
+            <p></p>
+        </header>
+
+        <div class="info">
+            <span class="date">
+              <span class="month">Jan<span>uary</span></span>
+              <span class="day">23</span>
+              <span class="year">, 2017</span>
+            </span>
+        </div>
+        
+        
+          <p>One of the things I love about using bash is how that you can access previous commands - it remembers them so I don't have to.</p>
+        
+          <p>Unfortunately, this isn't always easy if it's been a while since you used that command - this is my method for solving this issue.</p>
+        
+          <p><p>First up is working out how bash does this feat of memory - simple. On most setups using bash, in your home directory there is a file called .bash_history (note the dot). This contains an almost complete list of run commands - the exceptions I've found are </p>
+        
+          <p>a) if you force a bash window to close unexpectedly the history is not always written, and </p>
+        
+          <p>b) if you start the command with a space (a deliberate feature to allow you to select those things you don't want preserved for prosperity).</p></p>
+        
+          <p><p>To find a previous command, we're going to use grep, a commandline utility for searching plain text files.</p></p>
+        
+          <p><p>The basic grep command looks something like</p><p><b>$ grep &lt;search-string&gt; &lt;file to be searched&gt;</b></p></p>
+        
+          <p><p>So, as long as you can remember part of the command, you can probably find it again.</p></p>
+        
+          <p><p>For example, I know I used some of the inkscape command line arguments to convert some engineering diagrams to svg - I'd like to do that again, but it was about a month ago, and I have no idea what the command was.</p></p>
+        
+          <p><script src='https://gist.github.com/davidbebb/338e5a7d602dc5aa67c5365333bde365.js'></script></p>
+        
+          <p><p>Bingo. <b>$ inkscape &nbsp;--without-gui --file=inFile.pdf --export-plain-svg=outFile.svg </b> it is.</p></p></p>
         
         <a data-scroll href="#" class="button">Top</a>
 

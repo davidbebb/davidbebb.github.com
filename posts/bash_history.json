@@ -1,0 +1,23 @@
+{
+  "date": "20170123",
+  "publish": "true",
+  "tags":["development", "tools"],
+  "header":{
+    "title":"Searching bash history",
+    "subheader": "",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "One of the things I love about using bash is how that you can access previous commands - it remembers them so I don't have to.",
+    "Unfortunately, this isn't always easy if it's been a while since you used that command - this is my method for solving this issue.",
+    "<p>First up is working out how bash does this feat of memory - simple. On most setups using bash, in your home directory there is a file called .bash_history (note the dot). This contains an almost complete list of run commands - the exceptions I've found are ",
+    "a) if you force a bash window to close unexpectedly the history is not always written, and ",
+    "b) if you start the command with a space (a deliberate feature to allow you to select those things you don't want preserved for prosperity).</p>",
+    "<p>To find a previous command, we're going to use grep, a commandline utility for searching plain text files.</p>",
+    "<p>The basic grep command looks something like</p><p><b>$ grep &lt;search-string&gt; &lt;file to be searched&gt;</b></p>",
+    "<p>So, as long as you can remember part of the command, you can probably find it again.</p>",
+    "<p>For example, I know I used some of the inkscape command line arguments to convert some engineering diagrams to svg - I'd like to do that again, but it was about a month ago, and I have no idea what the command was.</p>",
+    "<script src='https://gist.github.com/davidbebb/338e5a7d602dc5aa67c5365333bde365.js'></script>",
+    "<p>Bingo. <b>$ inkscape &nbsp;--without-gui --file=inFile.pdf --export-plain-svg=outFile.svg </b> it is.</p></p>"
+  ]
+}

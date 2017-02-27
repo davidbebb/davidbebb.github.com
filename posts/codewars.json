@@ -1,0 +1,13 @@
+{
+  "date": "20170225",
+  "publish": "true",
+  "tags":["development", "tools"],
+  "header":{
+    "title":"Codewars",
+    "subheader": "A fun way to up your development game",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "<p>One of my continual concerns with coding is forgetting - when I've been away from a language for a while, it's slightly nerve racking to come back to it. </p><p>Enter codewars, a collection of coding challenges - or katas - mostly written by other developers using the site. I find this a great way of refreshing a language, and a good way of pushing my skills up a level, in a way that I probably won't with production code (because, best will in the world, I <i>care</i> about my production code working, so if I can I'll play safe and stick to what I know works, even if there are potentially faster or cleaner solutions). </p><p>Also, once I have completed a challenge, I get to see other solutions to the same problem, which is often educational, even if it's only to confirm ways you <i>wouldn't</i> want to see used to solve the problem. </p><p>I also like to use this to familiarise myself with a new language - after I've covered the basic tutorials, I find codewars an excellent way to cement what I've learnt - and to be a good way of getting myself used to the documentation conventions and sources for my new favourite language. </p><p>Finally, the because the way challenges are 'marked' is through a set of unit tests, I get quick exposure to these, something that is often missed in the tutorials. </p><p>So, whether you're leaning new, or sharpening up old, the number and variety, of the challenges on <a href='https://www.codewars.com/'>codewars</a> makes it a good place to know. </p>"
+  ]
+}
