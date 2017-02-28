@@ -26,11 +26,14 @@ var data = {
       {
         title: 'Thoughts',
         href: './index.html'
-      // },
+      },
       // {
       //   title: 'Projects',
       //   href: './projects.html'
-      }
+      {
+        title: 'CV',
+        href: './about.html'
+	    }
     ],
     recent: 0 //or an array of links
   }
@@ -46,7 +49,7 @@ var postsData = {
 
 var indexData =  buildData(data, postsData, 'Thoughts');
 var projectsData = buildData(data, {}, 'Projects');
-
+var cvData = buildData(data, {}, 'CV')
 var pages = [
   {
     template: index,
@@ -57,6 +60,11 @@ var pages = [
     template: index,
     data: projectsData,
     name: 'projects'
+  },
+  {
+    template: index,
+    data: cvData,
+    name: 'about'
   }
 ]
 
