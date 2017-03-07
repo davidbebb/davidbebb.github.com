@@ -1,0 +1,16 @@
+{
+  "date": "20170305",
+  "publish": "true",
+  "tags":["development", "tools"],
+  "header":{
+    "title":"C# setup",
+    "subheader": "A rather pleasant surprise",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "Just recently, I decided to try my hand at C#. I have some experience with both Java, and C/C++, so I thought that C# might make an interesting addition.",
+    "As someone who for the last 10 years or so has been using linux almost exclusively, I was expecting anything .NET (Microsoft driven) to be... painful to set up, to say the least.",
+    "However, I'm happy to say that I was wrong. The <a href='http://www.mono-project.com/docs/getting-started/install/linux/' >mono project</a> makes this a dream. You even get an IDE, if your tastes run that way.",
+    "So far, so good."
+  ]
+}

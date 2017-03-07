@@ -1,0 +1,14 @@
+{
+  "date": "20170105",
+  "publish": "true",
+  "tags":["development", "tools"],
+  "header":{
+    "title":"README",
+    "subheader": "This blog",
+    "teaser":"This is the space for click bait"
+  },
+  "body":[
+    "In the past, I've found myself digging through backups and configs to remember 'how I solved that last time'. This is my solution to that problem. Most of the content here is written as a reminder to myself: lots of links and limited context (enough so that I can ask google to look through my own site to find what I want). There are occasional exceptions, but usually they're added as a way of clarifying my own throughts on a question, rather than in any expectation of them actually being read.",
+    "And if anyone else finds this useful, well that's a bonus."
+  ]
+}

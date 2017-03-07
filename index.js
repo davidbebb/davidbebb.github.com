@@ -49,7 +49,7 @@ var postsData = {
 
 var indexData =  buildData(data, postsData, 'Thoughts');
 var projectsData = buildData(data, {}, 'Projects');
-var cvData = buildData(data, {}, 'CV')
+var about = buildData(data, {about:[]}, 'CV')
 var pages = [
   {
     template: index,
@@ -63,12 +63,13 @@ var pages = [
   },
   {
     template: index,
-    data: cvData,
+    data: about,
     name: 'about'
   }
 ]
 
 pages.forEach(function (p){
+  console.log(p.data);
   p.data.lib = {
     moment:moment
   },

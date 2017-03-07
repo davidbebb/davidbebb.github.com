@@ -8,9 +8,9 @@
     "teaser":"This is the space for click bait"
   },
   "body":[
-    "One of the things I love about using bash is how that you can access previous commands - it remembers them so I don't have to.",
-    "Unfortunately, this isn't always easy if it's been a while since you used that command - this is my method for solving this issue.",
-    "<p>First up is working out how bash does this feat of memory - simple. On most setups using bash, in your home directory there is a file called .bash_history (note the dot). This contains an almost complete list of run commands - the exceptions I've found are ",
+    "One of the things I love about using bash is that I can access previous commands - it remembers them so I don't have to.",
+    "Unfortunately, this isn't always easy if it's been a while since that command was used- this is my method for solving this issue.",
+    "<p>First step is working out how bash does this feat of memory. On most setups using bash, in your home directory there is a file called .bash_history (note the dot). This contains an almost complete list of run commands - the exceptions I've found are ",
     "a) if you force a bash window to close unexpectedly the history is not always written, and ",
     "b) if you start the command with a space (a deliberate feature to allow you to select those things you don't want preserved for prosperity).</p>",
     "<p>To find a previous command, we're going to use grep, a commandline utility for searching plain text files.</p>",
